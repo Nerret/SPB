@@ -20,6 +20,8 @@ h2 {
 
 p{
     font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
 }
 
 a{
@@ -124,8 +126,20 @@ li .dropdown {
     margin: 8%;
     color: #fff;
 }
-
-
+#bottomcontainer p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#bottomcontainer a {
+    background-color: #75BE5F;
+    border: none;
+    color: #fff;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 
 
 /*Footer*/
