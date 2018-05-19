@@ -23,3 +23,53 @@ a{
     text-decoration: none;
     font-weight: 400;
 }
+
+
+
+
+
+/*Navigation*/
+
+.navUl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLi {
+    cursor: pointer;
+}
+
+.navLi a {
+    color: #327AB6;
+    padding: 30px 32px;
+    display: inline-block;
+    font-size: 32px;
+}
+
+.navLi:hover {
+    background-color: #F5F5F5;
+}
+
+
+
+#breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #327AB6;
+    list-style-type: none;
+}
+
+.breadcrumbLi a {
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+.breadcumbLi {
+    
+}
