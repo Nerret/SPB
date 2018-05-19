@@ -155,6 +155,33 @@ li .dropdown {
 }
 
 
+/*Calendar*/
+#Calendar {
+    margin: 0 25% 0 25%;
+    background-color: aqua;
+}
+#cal-month p {
+    flex: 1;
+}
+#cal-days, #cal-month{
+    display: flex;
+    flex-direction: row;
+}
+#cal-days p {
+    flex: 1;
+}
+.grey, .white {
+    border: solid;
+    border-color: #DFDFDF;
+}
+.grey {
+    background-color: grey;
+}
+.white {
+    background-color: white;
+}
+
+
 /*Footer*/
 
 #sponsor-line, #info-line, #social-media-line {
