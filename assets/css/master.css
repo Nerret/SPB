@@ -29,7 +29,6 @@ a{
 
 
 /*Navigation*/
-
 .navUl {
     display: flex;
     flex-wrap: wrap;
@@ -38,24 +37,36 @@ a{
     margin: 0;
     padding: 0;
 }
-
 .navLi {
     cursor: pointer;
 }
-
 .navLi a {
     color: #327AB6;
     padding: 30px 32px;
     display: inline-block;
     font-size: 32px;
 }
-
 .navLi:hover {
     background-color: #F5F5F5;
 }
 
+#navLogo img {
+    height: 80px;
+    width: auto;
+    margin-top: 8px;
+}
+#navLanguage img{
+    height: auto;
+    width: 70px;
+    margin: 20px 25% 0 25%;
+}
+#navLanguage p {
+    text-align: center;
+}
 
 
+
+/*BreadCrumbs*/
 #breadcrumbs {
     display: flex;
     flex-wrap: wrap;
@@ -67,9 +78,7 @@ a{
     color: #fff;
     padding: 10px;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
-}
-.breadcumbLi {
-    
+    cursor: pointer;
 }
