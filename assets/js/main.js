@@ -13,6 +13,7 @@ button.addEventListener('click', function() {
 /*Slideshow*/
 
 var slidearray = document.querySelectorAll('#slides .sliderli');
+console.log(slidearray);
 var slideCurrent = 0;
 var sliderPause = setInterval(nextSlide,4000);
 var foward = document.getElementById('next');
