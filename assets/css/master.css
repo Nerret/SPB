@@ -403,6 +403,44 @@ padding-top: 30px;
   color: #000000;
   background-color: #ffffff;
 }
+
+/*Bootcamp intro*/
+.bootcamp_intro_booking {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bootcamp_intro > h2 {
+  background: white;
+  color: #327AB6;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 100px;
+  margin-top: 44;
+  margin-bottom: 0;
+  padding-left: 141px;
+}
+.bootcamp_intro > p {
+  background: white;
+  color: black;
+  font-size: 28px;
+  font-weight: 100;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-left: 141px;
+  padding-right: 141px;
+}
+.bootcamp_intro_booking > h3 {
+  background: white;
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 161px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  padding-left: 141px;
+}
+
 /*Budget*/
 
 #budget {
