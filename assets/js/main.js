@@ -1,3 +1,5 @@
+/*Change button text from "Subscribe" to "Subscribed"*/
+
 var button = document.getElementById("subscribe-button");
 button.addEventListener('click', function() {
   if (button.getAttribute("text-swap") == button.innerHTML) {

@@ -228,6 +228,7 @@ li .dropdown {
 
 #budget-prices p {
   display: inline;
+  color: white;
 }
 
 #deluxe-prices {
@@ -242,11 +243,6 @@ li .dropdown {
 
 #deluxe-prices p {
   color: white;
-}
-
-
-.text-highlight {
-  color: #FFAA00;
 }
 
 /*Prices*/
