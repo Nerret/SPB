@@ -408,6 +408,7 @@ padding-top: 30px;
 .bootcamp_intro_booking {
   display: flex;
   justify-content: flex-start;
+  background-color: white;
 }
 
 .bootcamp_intro > h2 {
