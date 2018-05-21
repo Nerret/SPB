@@ -271,6 +271,9 @@ li .dropdown {
 }
 
 /*Calendar*/
+#calendercontainer {
+    margin-bottom: 80px;
+}
 #Calendar {
     margin: 0 25% 0 25%;
 }
@@ -285,14 +288,14 @@ li .dropdown {
     border: solid;
     color: #DFDFDF;
 }
-#cal-days, #cal-month, #cal-dayname{
+.cal-days, #cal-month, #cal-dayname, #booking{
     display: flex;
     flex-direction: row;
 }
 #cal-dayname p {
     flex: 1;
 }
-#cal-days p {
+.cal-days p {
     flex: 1;
     line-height: 80px;
 }
@@ -320,6 +323,18 @@ li .dropdown {
     font-weight: 700;
     text-decoration: underline;
 }
+#booking p{
+    flex: 1;
+}
+.bookingbutton {
+    background-color: #327AB6;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 700;
+}
+
 
 /*Footer*/
 
