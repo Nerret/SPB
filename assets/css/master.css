@@ -271,29 +271,53 @@ li .dropdown {
 /*Calendar*/
 #Calendar {
     margin: 0 25% 0 25%;
-    background-color: aqua;
+}
+#Calendar h2 {
+    margin: 100px 0 50px 0;
+    color: #327AB6;
 }
 #cal-month p {
     flex: 1;
 }
-#cal-days, #cal-month{
+#cal-month {
+    border: solid;
+    color: #DFDFDF;
+}
+#cal-days, #cal-month, #cal-dayname{
     display: flex;
     flex-direction: row;
 }
+#cal-dayname p {
+    flex: 1;
+}
 #cal-days p {
     flex: 1;
+    line-height: 80px;
 }
 .grey, .white {
     border: solid;
     border-color: #DFDFDF;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
 }
 .grey {
-    background-color: grey;
+    background-color: #E8E8E8;
 }
 .white {
-    background-color: white;
+    background-color: #fff;
 }
-
+.offmonth {
+    color: #B9B9B9;
+}
+.pastdays {
+    font-weight: 300;
+}
+.currentday {
+    background-color: #AAAAAA;
+    font-weight: 700;
+    text-decoration: underline;
+}
 
 /*Footer*/
 
