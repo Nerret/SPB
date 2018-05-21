@@ -209,6 +209,7 @@ li .dropdown {
 /*Budget*/
 
 #budget {
+  background-color: #858888; /*remove this later*/
     display: flex;
     width: 100%;
 }
@@ -216,15 +217,56 @@ li .dropdown {
 .budget-background {
   width: 100%;
 }
-.budget-prices {
+#budget-prices {
+  margin-left: 8%;
+  width: 34%;
 }
 
-.deluxe-prices {
-
+#budget-prices h2 {
+  color: white;
 }
+
+#budget-prices p {
+  display: inline;
+}
+
+#deluxe-prices {
+  margin-left: 16%;
+  text-align: right;
+  width: 34%;
+}
+
+#deluxe-prices h2 {
+  color: white;
+}
+
+#deluxe-prices p {
+  color: white;
+}
+
+
+.text-highlight {
+  color: #FFAA00;
+}
+
 /*Prices*/
 
+#pricebox {
+  background-color: #F5F5F5; /*remove this later*/
+    display: flex;
+    width: 100%;
+}
 
+#pricebox-prices {
+  margin-left: 8%;
+  width: 34%;
+}
+
+#pricebox-deals {
+  margin-left: 16%;
+  text-align: right;
+  width: 34%;
+}
 
 /*Calendar*/
 #Calendar {
