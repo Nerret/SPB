@@ -461,6 +461,58 @@ padding-top: 30px;
 	color: white;
 }
 
+/*Bootcamp information tiles*/
+.tile-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.tile-container > div {
+  height: 638px;
+}
+/*Tile colors*/
+.e-sport {
+  background-color: #666666;
+}
+.facilities {
+  background-color: #327AB6;
+  flex-direction: row-reverse;
+}
+.nature {
+  background-color: #339933;
+}
+
+/*Tile text*/
+.tile_block1 {
+ margin-left: 138px;
+ margin-right: 138px;
+ margin-top: 60px;
+}
+.tile_block1 > h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.tile_block1 > p {
+  color: white;
+  line-height: 1.6;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+/*Tile picture*/
+.tile_block2 {
+  margin-right: 138px;
+  margin-top: 100px;
+  padding-bottom: 0px;
+}
+.facilities_block2 {
+  margin-left: 138px;
+  margin-top: 100px;
+  padding-bottom: 0px;
+}
+
 /*Budget*/
 
 #budget {
