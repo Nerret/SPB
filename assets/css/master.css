@@ -8,6 +8,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
 /*fonts*/
 
 h1, h2, h3, h4{
@@ -146,7 +147,114 @@ li .dropdown {
 }
 
 #slides{
-  
+
+}
+
+#slidercontrolscontainer{
+  height: 40px;
+  background-color: #327AB6;
+}
+
+/*Welcome*/
+
+#topbar h1{
+  color: #327AB6;
+  padding-top: 20px;
+  margin-left: 3%;
+}
+
+#topbar p{
+  width: 68vw;
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: 3%;
+  margin-top: 30px;
+}
+
+#topbar img{
+  margin-left: 72vw;
+  margin-top: -220px;
+  height: 470px;
+  width: 470px;
+  z-index: 5;
+}
+
+/*
+Went with image solution (#topbar img) due to time presure
+#pricecicrle{
+  width: 400px;
+  height: 400px;
+  border: solid 30px white;
+  outline: white solid 30px;
+  border-radius: 50%;
+  background-color: #327AB6;
+  margin-left: 72%;
+  margin-top: -50px;
+  z-index: 5;
+}
+
+#pricecirclep{
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+}*/
+
+/*index main section*/
+#toptiles{
+  background-color: #327AB6;
+  height: 1000px;
+  margin-top: -40px;
+  z-index: 1;
+}
+
+#righttoptile{
+  background-image: url("../Img/riptidebackground.png");
+  height: 720px;
+  background-repeat: no-repeat;
+  margin-left: 27.5%;
+  color: white;
+  overflow: auto;
+}
+
+#righttoptile h2, #righttoptile p{
+  margin-left: 25vw;
+}
+
+#righttoptile h2{
+  margin-top: 135px;
+}
+
+#righttoptile p{
+  margin-top: 22px;
+  font-size: 30px;
+}
+
+#righttoptile img{
+   width: 140px;
+   margin-left: 70%;
+   margin-top: -150px;
+}
+
+#riptidesbutton{
+  background-color: #327AB6;
+  color: white;
+  width: 300px;
+  height: 55px;
+  margin-left: 69%;
+  margin-top: 100px;
+  font-size: 25px;
+  border: none;
+}
+
+#righttoptiletext{
+  width: 800px;
+}
+
+#lefttoptile img{
+  width: 700px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 50px;
 }
 
 /*School*/
