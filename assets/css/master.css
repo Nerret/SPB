@@ -258,6 +258,10 @@ li .dropdown {
   width: 34%;
 }
 
+#pricebox-prices h2 {
+  color: #327AB6;
+}
+
 #pricebox-deals {
   margin-left: 16%;
   text-align: right;
