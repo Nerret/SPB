@@ -347,7 +347,7 @@ Went with image solution (#topbar img) due to time presure
 /*Budget*/
 
 #budget {
-  background-color: #858888; /*remove this later*/
+  background-color: #666666; /*remove this later*/
     display: flex;
     width: 100%;
 }
