@@ -512,6 +512,53 @@ padding-top: 30px;
   margin-top: 100px;
   padding-bottom: 0px;
 }
+/*E-sport tile*/
+.e-sport  {
+  display: flex;
+  justify-content: space-between;
+}
+.trophy {
+  margin-left: 318px;
+  margin-top: -140px;
+  position: absolute;
+}
+.e-sport_circle {
+  margin-left: 520px;
+  margin-top: -570px;
+  position: absolute;
+}
+
+/*Facilities tile*/
+.facilities {
+  display: flex;
+  justify-content: space-between;
+}
+.swimmer {
+  margin-left: 318px;
+  margin-top: -120px;
+  position: absolute;
+}
+.facilities_circle {
+  margin-left: -100px;
+  margin-top: -570px;
+  position: absolute;
+}
+
+/*Cabins and Nature tile*/
+.nature {
+  display: flex;
+  justify-content: space-between;
+}
+.three {
+  margin-left: 428px;
+  margin-top: -150px;
+  position: absolute;
+}
+.nature_circle {
+  margin-left: 520px;
+  margin-top: -570px;
+  position: absolute;
+}
 
 /*Budget*/
 
