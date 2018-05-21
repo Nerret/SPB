@@ -440,6 +440,26 @@ padding-top: 30px;
   margin-bottom: 0;
   padding-left: 141px;
 }
+/*Booking button top*/
+.booking_button_bootcamp {
+  background: #ffffff;
+	border: 1px solid #327AB6;
+  color: #327AB6;
+  cursor: pointer;
+  display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+  font-size: 32px;
+	line-height: 1;
+  margin-top: 57px;
+  margin-left: 108px;
+	padding: 5px 10px;
+	text-align: center;
+}
+.booking_button_bootcamp:hover {
+  background-color: #327AB6;
+	color: white;
+}
 
 /*Budget*/
 
