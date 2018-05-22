@@ -14,10 +14,12 @@ button.addEventListener('click', function() {
 
 var slidearray = document.querySelectorAll('#slides .sliderli');
 var slideIndex = 0;
+var slideInterval = setInterval(autoSlide, 4000);
+
 
 
 init(slideIndex, slidearray);
-
+autoSlide(slideIndex);
 
 function init(firstIndex, slidearray){
     updateLi(slidearray[firstIndex]);
@@ -48,6 +50,19 @@ function updateLi(slideCurrent){
     slideCurrent.classList.add('visable');
 }
 
+function autoSlide(currentIndex){
+   var newIndex =  currentIndex+1;
+   var slideCurrent = slidearray[currentIndex];
+   slideCurrent.classList.remove('visable');
+   if(newIndex > slidearray.length){
+     var slideIndex = 0;
+   }
+   else{
+     var slideNew = slidearray[newIndex];
+     slideNew.classList.add('visable');
+   };
+
+}
 
 /*Price slide*/
 var blue = document.getElementsByClassName("blueprice");
