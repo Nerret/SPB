@@ -13,29 +13,48 @@ button.addEventListener('click', function() {
 /*Slideshow*/
 
 var slidearray = document.querySelectorAll('#slides .sliderli');
-console.log(slidearray);
-var slideCurrent = 0;
-var sliderPause = setInterval(nextSlide,4000);
-var foward = document.getElementById('next');
-var backward = document.getElementById('pre');
+var slideIndex = 0;
 
-function nextSlide(n){
-    slidearray[slideCurrent].className = 'sliderli';
-    slideCurrent = (n+slidearray.length)%slidearray.length;
-    slidearray[slideCurrent].className = 'sliderli visable';
+
+init(slideIndex, slidearray);
+
+
+function init(firstIndex, slidearray){
+    updateLi(slidearray[firstIndex]);
+    slidearray.forEach(function(element, key){
+      var wrapper = document.getElementById('slide-dots');
+      var dot = document.createElement('LI');
+      dot.setAttribute('onclick', 'dotClick('+key+')');
+      wrapper.appendChild(dot);
+    });
 }
 
-function slideFoward(){
-    nextSlide(slideCurrent+1);
+function dotClick(key){
+    nextSlide(slideIndex, key);
 }
 
-function slideBackward(){
-    nextSlide(slideCurrent-1);
+function nextSlide(currentIndex, newIndex){
+    var slideCurrent = slidearray[currentIndex];
+    slideCurrent.classList.remove('visable');
+
+    var slideNew = slidearray[newIndex];
+    slideNew.classList.add('visable');
+
+    slideIndex = newIndex;
 }
 
-foward.onclick = function(){
-    slideFoward();
-};
-backward.onclick = function(){
-    slideBackward();
-};
+
+function updateLi(slideCurrent){
+    slideCurrent.classList.add('visable');
+}
+
+
+/*Price slide*/
+var blue = document.getElementsByClassName("blueprice");
+var green = document.getElementsByClassName("greenprice");
+var grey = document.getElementsByClassName("greyprice");
+var deluxe = document.getElementsByClassName("greydeluxe");
+
+function slideout(x){
+x.style.transition = "margin-left 15%!important";
+}

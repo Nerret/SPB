@@ -54,11 +54,22 @@ a{
     background-color: #F5F5F5;
 }
 
+#navLogo{
+  position: absolute;
+  left: 0;
+}
+
 #navLogo img {
     height: 80px;
     width: auto;
     margin-top: 8px;
 }
+
+#navLanguage{
+  position: absolute;
+  right: 0;
+}
+
 #navLanguage img{
     height: auto;
     width: 70px;
@@ -155,6 +166,15 @@ li .dropdown {
   background-color: #327AB6;
 }
 
+#slide-dots li{
+    display: inline-block;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: hotpink;
+    cursor: pointer;
+}
+
 /*Welcome*/
 
 #topbar h1{
@@ -173,10 +193,15 @@ li .dropdown {
 
 #topbar img{
   margin-left: 72vw;
-  margin-top: -220px;
+  margin-top: -315px;
   height: 470px;
   width: 470px;
   z-index: 5;
+}
+
+#topbar{
+  border-bottom: solid #327AB6 17px;
+  max-height: 270px;
 }
 
 /*
@@ -202,7 +227,7 @@ Went with image solution (#topbar img) due to time presure
 /*index main section*/
 #toptiles{
   background-color: #327AB6;
-  margin-top: -40px;
+  margin-top: 0;
   z-index: 1;
 }
 
@@ -216,7 +241,7 @@ Went with image solution (#topbar img) due to time presure
 }
 
 #righttoptile h2, #righttoptile p{
-  margin-left: 25vw;
+  margin-left: 23vw;
 }
 
 #righttoptile h2{
@@ -225,13 +250,21 @@ Went with image solution (#topbar img) due to time presure
 
 #righttoptile p{
   margin-top: 22px;
-  font-size: 30px;
+  font-size: 1.6vw;
+  width: 55%;
 }
 
 #righttoptile img{
    width: 140px;
-   margin-left: 80%;
+   margin-left: 75%;
    margin-top: -150px;
+}
+
+#lefttoptile p{
+  margin-top: -130px;
+}
+#lefttoptile button{
+  margin-top: -120px;
 }
 
 #riptidesbutton{
@@ -239,8 +272,8 @@ Went with image solution (#topbar img) due to time presure
   color: white;
   width: 300px;
   height: 55px;
-  margin-left: 69%;
-  margin-top: 68px;
+  margin-left: 63%;
+  margin-top: 98px;
   font-size: 25px;
   border: none;
 }
@@ -254,10 +287,10 @@ Went with image solution (#topbar img) due to time presure
 }
 
 #lefttoptile img{
-  width: 700px;
+  width: 630px;
   position: absolute;
   margin-top: 54px;
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 #lefttoptile p, #lefttoptile button{
@@ -266,9 +299,10 @@ Went with image solution (#topbar img) due to time presure
 
 #lefttoptile p{
   width: 800px;
-  font-size: 25px;
+  font-size: 1.6vw;
   top: 1520px;
-  left: 70px;
+  left: 7.7%;
+  width: 38%;
 }
 
 #lefttoptile button{
@@ -276,8 +310,8 @@ Went with image solution (#topbar img) due to time presure
   color: white;
   width: 300px;
   height: 55px;
-  left: 70px;
-  top: 1700px;
+  left: 7.7%;
+  top: 1730px;
   font-size: 25px;
   border: none;
 }
@@ -287,6 +321,7 @@ Went with image solution (#topbar img) due to time presure
   background-color: #327AB6;
   display: flex;
   height: 670px;
+  border-bottom: solid white 17px;
 }
 
 #midh1{
@@ -351,6 +386,78 @@ padding-top: 30px;
     font-size: 16px;
 }
 
+
+/* Specs */
+
+#specs{
+  height: 600px;
+  background-color: #81A2E3;
+  display: flex;
+  justify-content: space-between;
+}
+
+#specsleft{
+  max-width: 45%!important;
+}
+
+#specsleft img{
+  width: 15vw;
+  position: absolute;
+  top: 2780px;
+  left: 27%;
+}
+
+#specsright img{
+  width: 26vw;
+  height: 80vh;
+  margin-top: -50px;
+  float: right;
+}
+
+#specsright{
+  background-image: url("../Img/specsdeviderimg.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 73%;
+}
+
+#specsleftul{
+ list-style-type: none;
+ margin-left: 27%;
+ margin-top: 50px;
+}
+
+#specsleft h2{
+  color: white;
+  margin-left: 27%;
+  margin-top: 30px;
+}
+
+#specsleftul li{
+  text-decoration: underline;
+  font-size: 18px;
+  color: white;
+  margin-top:40px;
+}
+
+#specsright h2{
+  margin-left: 35%;
+  margin-top: 30px;
+  color: white;
+}
+
+#specsright ul{
+  list-style-type: none;
+  margin-left: 35%;
+  margin-top: 30px;
+}
+
+#specsright li{
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+}
+
 /*360 Video*/
 #videocontainer {
   background-color: #666666;
@@ -360,7 +467,7 @@ padding-top: 30px;
 .video-box {
     flex: 1;
 }
-/*needs revision*/
+/*Video*/
 .video {
   height: 70%;
   margin-bottom: 24.4%;
@@ -369,10 +476,31 @@ padding-top: 30px;
   width: 50%;
 }
 
+
+/* these lie */
+
+#videorightcircle{
+ width: auto;
+ height: 390px;
+ position: absolute;
+ left: 0;
+ top: 4035px;
+}
+
+#videoleftcircle{
+  position: absolute;
+  right: 0;
+  width: auto;
+  height: 390px;
+  top: 4320px;
+}
+
 /*Newsletter*/
 #mailcontainer {
   background-color: #327AB6;
   display: flex;
+  background: url("../Img/newsletter-background.png");
+  height: 340px;
 }
 .mail-box {
   flex: 1;
@@ -384,6 +512,7 @@ padding-top: 30px;
 .newsletter-header {
   color: #ffffff;
   padding-left: 8%;
+  margin-top: 50px;
 }
 
 .email-input {
@@ -633,12 +762,87 @@ padding-top: 30px;
   color: #327AB6;
 }
 
-#pricebox-deals-left {
-  margin-left: 16%;
-  width: 26%;
+#pricebox-deals{
 }
-#pricebox-deals-right {
+
+#deluxh1{
+  margin-top: 20px;
+  position: absolute;
+  left: 88.4%;
+  top: 2640px;
+}
+
+.pricetile ul li{
+  margin: 60px;
+}
+
+.blueprice{
+  background-image: url("../Img/blueprice.png");
+  background-repeat: no-repeat;
+}
+
+.greenprice{
+  background-image: url("../Img/greenprice.png");
+  background-repeat: no-repeat;
+}
+
+.greyprice{
+  background-image: url("../Img/greyprice.png");
+  background-repeat: no-repeat;
+  margin-top: -2px;
+}
+
+.greybudget{
+  margin-top: 50px;
+  background-image: url("../Img/greybudget.png");
+  background-repeat: no-repeat;
+}
+
+.pricetile ul{
+  list-style-type: none;
+  position: absolute;
+  left: 74%;
+  margin-top: -15px;
+  font-size: 20px;
+}
+
+.pricetile{
+  height: 187px;
+  width: 49vw;
+  margin-left: 14.906%;
+}
+
+
+.pricetile h2, .pricetile p{
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 15px;
+  color: white;
+}
+
+.pricetile h1{
+  float: right;
+  margin-top: -120px;
   margin-right: 8%;
+}
+
+#dealicons{
+  position: absolute;
+  list-style-type: none;
+  left: 46.5%;
+}
+
+#dealicons img{
+  width: 7vw;
+}
+
+#dealicons li{
+  margin-top: 60px;
+}
+
+#dealicons #lastli{
+  margin-top: 160px;
 }
 
 /*Calendar*/
@@ -666,6 +870,11 @@ padding-top: 30px;
 #cal-dayname p {
     flex: 1;
 }
+
+#calbook p{
+  width: 150px;
+}
+
 .cal-days p {
     flex: 1;
     line-height: 80px;
@@ -731,4 +940,63 @@ padding-top: 30px;
 #info-line p{
     flex: 1;
     margin: 20px 0 20px 0;
+}
+
+/* media queries */
+
+@media  screen and (max-width: 1600px) {
+    #righttoptile p, #lefttoptile p{
+      font-size: 15px;
+      width: 30%;
+    }
+    #righttoptile h2{
+      margin-left: 40%;
+    }
+    #righttoptile img{
+      margin-top:-70px;
+      margin-left: 70%;
+    }
+    #lefttoptile button{
+      margin-top: -96px;
+    }
+    #teamp{
+      position: absolute;
+      right: 13.4%;
+    }
+    #lefttoptile img{
+      width: 530px;
+      position: absolute;
+      margin-top: 54px;
+      margin-left: 120px;
+    }
+    #righttoptile p{
+      margin-left: 50%;
+    }
+    #teamp{
+      font-size: 25px!important;
+      margin-left: 35%!important;
+    }
+    #specsleftul li{
+      font-size: 14px;
+    }
+    #specsleft img{
+      left: 29%;
+    }
+    #specsright li{
+      font-size: 18px;
+      margin-left: 11%;
+    }
+    #dealicons #lastli{
+      margin-top: 160px;
+    }
+    #dealicons img{
+      margin-top: 20px;
+    }
+}
+
+
+/* shameful css */
+.latefixerdiv{
+  height: 100%;
+  width: 8%;
 }

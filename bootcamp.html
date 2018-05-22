@@ -6,6 +6,7 @@
         <title>e-Sport Center</title>
     </head>
     <body>
+      <div class="latefixerdiv"></div>
         <header>
             <nav>
                 <ul class="navUl">
@@ -28,8 +29,9 @@
                 </ul>
             </nav>
             <ul id="breadcrumbs">
-                <li class="breadcrumbLi"><a>SportsCenter</a></li>
-                <li class="breadcrumbLi"><a>E-Sport</a></li>
+                <li class="breadcrumbLi"><a href="#">SportsCenter</a></li>
+                <li class="breadcrumbLi"><a href="index.html">E-Sport</a></li>
+                <li class="breadcrumbLi"><a href="bootcamp.html">Bootcamp</a></li>
             </ul>
         </header>
 
@@ -123,34 +125,40 @@
                   <p>Tournament Pack:</p>
                   <p>12 pc's and the room: &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 250DKK/hour</p>
                   <br>
-
                 </div>
-                <div id="pricebox-deals-left">
-                  <br><br>
-                  <h2>6 or less People</h2>
-                  <p>Get lodging and access<br>to all sport facilities.</p>
-                  <br><br><br>
-                  <h2>7-11 People</h2>
-                  <p>Get lodging and access<br>to all sport facilities.</p>
-                  <br><br><br>
-                  <h2>12 People</h2>
-                  <p>Get lodging and access<br>to all sport facilities.</p>
-                  <br><br><br><br><br><br>
-                  <h2>Recruit a friend</h2>
-                  <p>Take a friend with you to the E-Sport<br>facility and get a discount code!</p>
-                </div>
-                <div id="pricebox-deals-right">
-                  <br>
-                  <h1>250DKK<br>pr.person</h1>
-                  <br>
-                  <h1>333DKK<br>pr.person</h1>
-                  <br><br>
-                  <h1>300DKK<br>pr.person</h1>
-                  <br><br><br><br><br>
-                  <h1>250DKK<br>pr.person</h1>
-                  <br><br><br><br><br><br><br><br><br>
-                  <h1>50DKK<br>discount!</h1>
-                </div>
+                <div id="pricebox-deals">
+                  <ul id="dealicons">
+                    <li id="pad"><img src="assets/Img/gamepad.png"/></li>
+                    <li id="people"><img src="assets/Img/people.png"/></li>
+                    <li id="crown"><img src="assets/Img/crown.png"/></li>
+                    <li id="lastli"><img src="assets/Img/friend.png"/></li>
+                  </ul>
+                  <div onmouseover="slideout(this)" onmouseout="slidein(this)" class="pricetile blueprice">
+                      <h2>6 or less People</h2>
+                      <p>Get lodging and access<br>to all sport facilities.</p>
+                      <ul>
+                        <li>Budget:</li>
+                        <li>Deluxe:</li>
+                      </ul>
+                      <h1>250DKK<br>pr.person</h1>
+                      <h1 id="deluxh1">333DKK<br>pr.person</h1>
+                    </div>
+                    <div class="pricetile greenprice">
+                      <h2>7-11 People</h2>
+                      <p>Get lodging and access<br>to all sport facilities.</p>
+                      <h1>300DKK<br>pr.person</h1>
+                    </div>
+                    <div class="pricetile greyprice">
+                      <h2>12 People</h2>
+                      <p>Get lodging and access<br>to all sport facilities.</p>
+                      <h1>250DKK<br>pr.person</h1>
+                    </div>
+                    <div class="pricetile greybudget">
+                      <h2>Recruit a friend</h2>
+                      <p>Take a friend with you to the E-Sport<br>facility and get a discount code!</p>
+                      <h1>50DKK<br>discount!</h1>
+                    </div>
+                  </div>
             </div>
             <div id="calendercontainer">
                 <div id="Calendar">
@@ -168,7 +176,7 @@
 
                     <div class="cal-days"><p class="grey">28</p><p class="white">29</p><p class="grey">30</p><p class="white">31</p><p class="grey offmonth">1</p><p class="white offmonth">2</p><p class="grey offmonth">3</p></div>
 
-                    <div id="booking"><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><p class="bookingbutton">Book now</p></div>
+                    <div id="booking"><p> </p><p> </p><p> </p><p> </p><p> </p><p> </p><a id="calbook" href="https://blaavandshuk.halbooking.dk/default.asp?lokale=59"><p class="bookingbutton">Book now</p></a></div>
                 </div>
             </div>
 
