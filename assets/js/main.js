@@ -18,10 +18,10 @@ var slideInterval = setInterval(autoSlide, 4000);
 
 
 
-init(slideIndex, slidearray);
+slideDo(slideIndex, slidearray);
 autoSlide(slideIndex);
 
-function init(firstIndex, slidearray){
+function slideDo(firstIndex, slidearray){
     updateLi(slidearray[firstIndex]);
     slidearray.forEach(function(element, key){
       var wrapper = document.getElementById('slide-dots');
