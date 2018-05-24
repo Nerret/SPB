@@ -822,7 +822,7 @@ padding-top: 30px;
   margin-top: 20px;
   position: absolute;
   left: 88.4%;
-  top: 2640px;
+  top: 2994px;
 }
 
 .pricetile ul li{
@@ -1052,7 +1052,16 @@ padding-top: 30px;
     #videoleftcircle{
       top: 4142px
     }
-
+    .greybudget{
+      margin-top: 195px;
+    }
+    #dealicons #lastli {
+    margin-top: 277px;
+    }
+    #deluxh1{
+      margin-top: 50px;
+      left: 86.9%;
+    }
 }
 
 
