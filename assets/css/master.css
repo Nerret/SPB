@@ -166,13 +166,24 @@ li .dropdown {
   background-color: #327AB6;
 }
 
+#slide-dots{
+    background-color: #327AB6;
+}
+
 #slide-dots li{
     display: inline-block;
     margin: 20px;
     width: 30px;
     height: 30px;
-    background-color: hotpink;
+    background-color: white;
     cursor: pointer;
+    border-radius: 999px;
+    margin-left: 2%;
+    max-width: 60%;
+}
+
+#slide-dots li:first-child{
+  margin-left: 37%;
 }
 
 /*Welcome*/
