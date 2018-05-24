@@ -184,7 +184,7 @@ li .dropdown {
 }
 
 #topbar p{
-  width: 68vw;
+  width: 62vw;
   font-size: 32px;
   line-height: 40px;
   margin-left: 3%;
@@ -192,7 +192,7 @@ li .dropdown {
 }
 
 #topbar img{
-  margin-left: 72vw;
+  margin-left: 65vw;
   margin-top: -315px;
   height: 470px;
   width: 470px;
@@ -202,6 +202,8 @@ li .dropdown {
 #topbar{
   border-bottom: solid #327AB6 17px;
   max-height: 270px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 /*
@@ -315,6 +317,7 @@ Went with image solution (#topbar img) due to time presure
   top: 1730px;
   font-size: 25px;
   border: none;
+  cursor: pointer;
 }
 
 #middlecontainer{
@@ -408,15 +411,14 @@ padding-top: 30px;
 }
 
 #specsleft img{
-  width: 15vw;
+  width: 14vw;
   position: absolute;
-  top: 2780px;
-  left: 27%;
+  top: 2812px;
+  left: 27.5%;
 }
 
 #specsright img{
   width: 26vw;
-  height: 80vh;
   margin-top: -50px;
   float: right;
 }
