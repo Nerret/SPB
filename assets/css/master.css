@@ -362,6 +362,12 @@ padding-top: 30px;
     margin: 2%;
 }
 
+#schoolcircle{
+  position: absolute;
+  width: 20vw;
+  left: 0;
+  top: 3125px;
+}
 
 #bottomcontainer {
     background-color: #339933;
