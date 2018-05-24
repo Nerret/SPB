@@ -554,6 +554,27 @@ padding-top: 30px;
   background-color: #ffffff;
 }
 
+/* bootcamp image top section */
+
+#topimagecontainer{
+  height: 236px;
+  background-image: url("../Img/bootcamptopimg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 35px;
+}
+
+#topimagecontainer h1{
+  text-align: center;
+  color: white;
+  font-size: 65px;
+}
+
+#topbluebar{
+  height: 42px;
+  background-color: #327AB6;
+}
+
 /*Bootcamp intro*/
 .bootcamp_intro_booking {
   display: flex;
