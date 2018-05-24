@@ -276,6 +276,7 @@ Went with image solution (#topbar img) due to time presure
   margin-top: 98px;
   font-size: 25px;
   border: none;
+  cursor: pointer;
 }
 
 #righttoptiletext{
@@ -965,6 +966,7 @@ padding-top: 30px;
     }
     #lefttoptile button{
       margin-top: -96px;
+      cursor: pointer;
     }
     #teamp{
       position: absolute;
@@ -999,6 +1001,7 @@ padding-top: 30px;
     #dealicons img{
       margin-top: 20px;
     }
+
 }
 
 
