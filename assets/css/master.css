@@ -504,7 +504,8 @@ padding-top: 30px;
  height: 390px;
  position: absolute;
  left: 0;
- top: 4035px;
+ top: 4072px;
+
 }
 
 #videoleftcircle{
@@ -512,7 +513,7 @@ padding-top: 30px;
   right: 0;
   width: auto;
   height: 390px;
-  top: 4320px;
+  top: 4382px;
 }
 
 /*Newsletter*/
@@ -739,6 +740,10 @@ padding-top: 30px;
   background-color: #666666; /*remove this later*/
     display: flex;
     width: 100%;
+    height: 200px;
+    background-image: url("../Img/budget-background.png");
+    background-repeat: no-repeat;
+    background-size: 1905px 200px;
 }
 
 .budget-background {
@@ -984,7 +989,7 @@ padding-top: 30px;
       margin-left: 70%;
     }
     #lefttoptile button{
-      margin-top: -65px;
+      margin-top: -64px;
       cursor: pointer;
     }
     #teamp{
@@ -1019,6 +1024,12 @@ padding-top: 30px;
     }
     #dealicons img{
       margin-top: 20px;
+    }
+    #videorightcircle{
+      top: 3935px;
+    }
+    #videoleftcircle{
+      top: 4142px
     }
 
 }
