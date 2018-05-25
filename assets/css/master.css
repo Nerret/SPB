@@ -378,9 +378,9 @@ padding-top: 30px;
 
 #schoolcircle{
   position: absolute;
-  width: 20vw;
+  width: 18vw;
   left: 0;
-  top: 3125px;
+  top: 3193px;
 }
 
 #bottomcontainer {
@@ -588,7 +588,7 @@ padding-top: 30px;
   font-weight: bold;
   font-size: 32px;
   line-height: 100px;
-  margin-top: 44;
+  margin-top: 44px;
   margin-bottom: 0;
   padding-left: 141px;
 }
@@ -970,6 +970,12 @@ padding-top: 30px;
 
 
 /*Footer*/
+
+.media-icon {
+  height: 50px;
+  width: auto;
+  margin: 5px;
+}
 
 #sponsor-line, #info-line, #social-media-line {
     display: flex;
