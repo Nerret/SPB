@@ -720,7 +720,7 @@ padding-top: 30px;
 }
 
 .e-sport_circle img, .nature_circle img{
-  margin-left: 38%;
+  margin-left: 50%;
 }
 
 /*Facilities tile*/
@@ -1067,6 +1067,9 @@ padding-top: 30px;
     #deluxh1{
       margin-top: 50px;
       left: 85.9%;
+    }
+    .e-sport_circle img{
+      margin-left: 18%;
     }
 }
 
