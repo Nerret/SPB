@@ -559,8 +559,8 @@ padding-top: 30px;
 /* bootcamp image top section */
 
 #topimagecontainer{
-  height: 236px;
-  background-image: url("../Img/bootcamptopimg.png");
+  height: 400px;
+  background-image: url("../Img/bootcamp-banner.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 35px;
