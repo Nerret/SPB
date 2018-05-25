@@ -206,7 +206,7 @@ li .dropdown {
 
 #topbar img{
   margin-left: 65vw;
-  margin-top: -315px;
+  margin-top: -330px;
   height: 470px;
   width: 470px;
   z-index: 5;
@@ -257,15 +257,15 @@ Went with image solution (#topbar img) due to time presure
 }
 
 #righttoptile h2, #righttoptile p{
-  margin-left: 23vw;
+  margin-left: 25vw;
 }
 
 #righttoptile h2{
-  margin-top: 135px;
+  margin-top: 115px;
 }
 
 #righttoptile p{
-  margin-top: 22px;
+  margin-top: 24px;
   font-size: 1.6vw;
   width: 55%;
 }
@@ -328,7 +328,7 @@ Went with image solution (#topbar img) due to time presure
   width: 300px;
   height: 55px;
   left: 7.7%;
-  top: 1758px;
+  top: 1735px;
   font-size: 25px;
   border: none;
   cursor: pointer;
@@ -418,6 +418,7 @@ padding-top: 30px;
   background-color: #81A2E3;
   display: flex;
   justify-content: space-between;
+  border-bottom: solid white 15px;
 }
 
 #specsleft{
@@ -507,7 +508,7 @@ padding-top: 30px;
  height: 390px;
  position: absolute;
  left: 0;
- top: 4072px;
+ top: 4022px;
 
 }
 
@@ -516,7 +517,7 @@ padding-top: 30px;
   right: 0;
   width: auto;
   height: 390px;
-  top: 4382px;
+  top: 4292px;
 }
 
 /*Newsletter*/
@@ -792,9 +793,9 @@ padding-top: 30px;
 }
 
 #deluxe-prices {
-  margin-left: 16%;
+  margin-left: 22%;
   text-align: right;
-  width: 34%;
+  width: 33%;
 }
 
 #deluxe-prices h2 {
@@ -829,7 +830,7 @@ padding-top: 30px;
   margin-top: 20px;
   position: absolute;
   left: 88.4%;
-  top: 2994px;
+  top: 3166px;
 }
 
 .pricetile ul li{
@@ -1080,6 +1081,14 @@ padding-top: 30px;
     }
 }
 
+/* 404 */
+
+#boxfor404{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../Img/404.jpg");
+  background-size: 100% 100%;
+}
 
 /* shameful css */
 .latefixerdiv{
