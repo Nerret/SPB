@@ -47,7 +47,7 @@ setInterval(function(){
   }
 }, slideTimer);
 
-/* core function removing and adding the visibility class to and from the respetive slider li's */
+/* core function removing and adding the visibility class to and from the first slide allowing it to reset */
 function slideDo(firstIndex, slidearray){
     slidearray.forEach(function(element){
       element.classList.remove('visable');
